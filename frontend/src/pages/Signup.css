@@ -1,0 +1,142 @@
+
+.signup-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 20px;
+  background: #f4f7fc;
+  color: #14213d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup-card {
+  width: 100%;
+  max-width: 480px;
+  padding: 34px;
+  background: #fff;
+  border: 1px solid #e7ecf4;
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(22, 43, 77, 0.08);
+}
+
+.signup-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 28px;
+  color: #173b7a;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.signup-brand-icon {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border-radius: 11px;
+  background: #2563eb;
+  color: white;
+}
+
+.signup-heading {
+  margin-bottom: 25px;
+}
+
+.signup-heading h1 {
+  margin: 0 0 9px;
+  font-size: 27px;
+}
+
+.signup-heading p {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.signup-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.signup-field label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.signup-field input,
+.signup-field textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 13px;
+  border: 1px solid #d5ddea;
+  border-radius: 9px;
+  outline: none;
+  background: #fff;
+  color: #14213d;
+  font: inherit;
+  font-size: 14px;
+}
+
+.signup-field textarea {
+  resize: vertical;
+}
+
+.signup-field input:focus,
+.signup-field textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.signup-field small {
+  color: #64748b;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.signup-button {
+  padding: 14px;
+  border: none;
+  border-radius: 9px;
+  background: #2563eb;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background: #1d4ed8;
+}
+
+.signup-login-prompt {
+  margin: 24px 0 0;
+  color: #64748b;
+  font-size: 13px;
+  text-align: center;
+}
+
+.signup-login-prompt a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signup-login-prompt a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .signup-card {
+    padding: 25px 20px;
+  }
+}

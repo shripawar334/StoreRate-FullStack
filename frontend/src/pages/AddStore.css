@@ -1,0 +1,280 @@
+
+.add-store-page {
+  min-height: 100vh;
+  background: #f8fafc;
+  color: #0f172a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.add-store-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17px 6%;
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.add-store-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #1e3a8a;
+  font-size: 21px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.add-store-brand-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.add-store-logout {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.add-store-logout:hover {
+  color: #2563eb;
+}
+
+.add-store-content {
+  width: min(900px, 88%);
+  margin: 0 auto;
+  padding: 35px 0;
+}
+
+.add-store-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 28px;
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.add-store-breadcrumb a {
+  color: #64748b;
+  text-decoration: none;
+}
+
+.add-store-breadcrumb a:hover {
+  color: #2563eb;
+}
+
+.add-store-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.add-store-heading-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #dbeafe;
+  color: #2563eb;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.add-store-heading h1 {
+  margin: 0 0 8px;
+  color: #0f172a;
+  font-size: 28px;
+  letter-spacing: -0.5px;
+}
+
+.add-store-heading p {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.add-store-form {
+  padding: 30px;
+  border: 1px solid #e2e8f0;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 0 5px 18px rgba(15, 23, 42, 0.04);
+}
+
+.add-store-section-heading {
+  padding-bottom: 20px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.add-store-section-heading h2 {
+  margin: 0 0 7px;
+  font-size: 18px;
+}
+
+.add-store-section-heading p {
+  margin: 0;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.add-store-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 23px 20px;
+}
+
+.add-store-field {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  min-width: 0;
+}
+
+.add-store-field-full {
+  grid-column: 1 / -1;
+}
+
+.add-store-field label {
+  color: #334155;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.add-store-field input,
+.add-store-field textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 13px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  outline: none;
+  background: #ffffff;
+  color: #0f172a;
+  font-family: inherit;
+  font-size: 13px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.add-store-field input::placeholder,
+.add-store-field textarea::placeholder {
+  color: #94a3b8;
+}
+
+.add-store-field input:focus,
+.add-store-field textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.add-store-field textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.add-store-field small {
+  color: #64748b;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.add-store-form-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  padding-top: 25px;
+  margin-top: 28px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.add-store-cancel,
+.add-store-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 20px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-store-cancel {
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: #475569;
+}
+
+.add-store-cancel:hover {
+  background: #f8fafc;
+}
+
+.add-store-submit {
+  border: none;
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.add-store-submit:hover {
+  background: #1d4ed8;
+}
+
+.add-store-note {
+  margin-top: 25px;
+  color: #94a3b8;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .add-store-content {
+    width: 90%;
+    padding-top: 25px;
+  }
+
+  .add-store-heading h1 {
+    font-size: 24px;
+  }
+
+  .add-store-form {
+    padding: 22px 18px;
+  }
+
+  .add-store-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .add-store-field-full {
+    grid-column: auto;
+  }
+
+  .add-store-form-actions {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+
+  .add-store-cancel,
+  .add-store-submit {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
